@@ -32,7 +32,7 @@ Yes because ["[w]indow sizes are kept in the kernel, but not used by the kernel"
 
 No because I made this while I was bored and wanted to play around with how to structure a C project.
 
-### Why didn't you do this in Rust like you do everything else?
+### Why didn't you do this in Rust as you do everything else?
 
 I definitely could have but for something so simple and fool-proof I didn't wanna make a whole new Cargo project. I figured it'd be painless enough to just do in C. Besides, calling ioctls in Rust would require :ghost: unsafe code :ghost:
 
