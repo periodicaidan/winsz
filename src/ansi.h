@@ -1,3 +1,6 @@
+#ifndef WINSZ_ANSI_H
+#define WINSZ_ANSI_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,3 +13,5 @@
 #define UNDERLINE_ESCSEQ_LEN 7
 
 const char* ansiUnderline(const char* s);
+
+#endif // WINSZ_ANSI_H
